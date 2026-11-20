@@ -22,7 +22,7 @@ Use this skill when the user asks for a detailed, copyable paper analysis or gro
 - Prefer direct observations such as “表2的 CATH L4 中，A 为 59.32%，B 为 86.44%” to generic advice or promotional conclusions. Do not use narrator phrases such as “读这张图时要注意” or “这张图告诉我们”.
 - Make the report easy to paste into Feishu: do not use Markdown bold markers `**`; keep captions below images. Do not add source hyperlinks or bracketed citations such as `[论文图1](...)` or `[论文数据部分](...)` to the report. Give the paper title and publication details as plain text; provide reference links only if the user explicitly requests them. Keep the original figures and requested table screenshots embedded inline.
 - Describe material caveats next to the relevant result: e.g. computational proxy versus laboratory validation, different input conditions, non-identical training settings, sample size, and possible data exposure. Do not turn a caveat into boilerplate.
-- Title the final transfer section “借鉴”. Keep it to the two or three strongest reusable ideas, each stated in one or two sentences and tied to a figure or table result. Prefer a concrete modeling or evaluation choice over a broad checklist. Do not default to a named user project. Mark hypotheses as proposals rather than established results.
+- Title the final transfer section “借鉴”. Cover model design only: architecture, token interaction, generation mechanism, or training objective. Keep it to one or two concise points tied to a figure or model comparison. Do not add data construction, benchmark, or evaluation advice to this section unless the user asks for it. Do not default to a named user project. Mark transfer ideas as proposals rather than established results.
 
 ## Finish
 
