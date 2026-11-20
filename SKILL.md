@@ -16,6 +16,7 @@ Use this skill when the user asks for a detailed, copyable paper analysis or gro
 ## Writing for this user
 
 - Write in Chinese for a computer-science reader. At first use, explain likely unfamiliar biological terms immediately in parentheses, using a short plain-language definition or CS analogy. For example, EC（按催化反应给酶编的四级标签） and CATH（按蛋白质三维结构域划分的四级标签）. Explain acronyms and biological evaluation metrics in the same way.
+- Start with a single compact heading in the form `PaperName(YYYY.M venue-or-preprint)`, for example `AMix-2(2026.5 preprint)`. Do not add separate `论文：` or `发表情况：` lines. Verify the date and publication status for each new paper before using this heading.
 - In the report, use “论文” as the subject for methods, data, and results (e.g. “论文采用”, “论文构建”, “论文报告”); do not use “作者” as a stand-in for the paper.
 - Cover research question, data, architecture, training objective, evaluation protocol, key experimental results, limitations, and research ideas worth borrowing. Spend space where the paper's figures and numbers justify it. Connect the analysis to a particular project only when the user asks.
 - Organize the experiments by task. Start each experimental subsection with `任务：` and explain, in plain language, what the model receives and what it must predict or generate. Then give the relevant metric, original figure/table, concrete result, and interpretation. Keep benchmark-wide split rules in a short shared setup rather than repeating them for every task.
